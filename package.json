@@ -30,6 +30,7 @@
     "csa": "^0.0.x",
     "jsonld": "^0.4.1",
     "path": "^0.12.7",
+    "priorityqueuejs": "^1.0.0",
     "q": "^1.4.1",
     "request": "^2.64.0",
     "uritemplate": "^0.3.4"

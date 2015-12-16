@@ -38,6 +38,9 @@ client.query(q, function (stream, source) {
   source.on('request', function (url) {
     console.log('Requesting page', url);
   });
+  source.on('departureStop', function (stop) {
+    console.log('Requesting departure stop ' + stop.stopId);
+  });
   /*
   source.on('response', function (url) {
     //You could would be able to calculate the response times here
